@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "string",
+    "Url": "string",
+    "ReleaseDate": "2022-07-18T16:54:34.837Z",
+    "Producer": {
+      "Id": 1,
+      "Name": "string",
+      "Url": "string",
+      "Movies": [
+        null
+      ]
+    },
+    "actors": [
+      {
+        "movieId": 0,
+        "actorId": 0,
+        "actor": {
+          "id": 0,
+          "name": "string",
+          "url": "string",
+          "movies": [
+            null
+          ]
+        }
+      }
+    ]
+  }
+]

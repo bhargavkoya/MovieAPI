@@ -1,0 +1,20 @@
+﻿1.Script for GET Request of Movies:
+
+Select * from Movies m
+left join Producers p on m.ProducerId=p.Id
+left join MoviesActors n on m.Id=n.MovieId
+left join Actors a on n.ActorId=a.Id
+
+2.Script for POST Request of Movies:
+
+Insert into Movies(Name,Url,ProducerId,ReleaseDate) 
+Values('Movie5','https://cinemovie.tv/Blogs/5-reasons-we-love-movies',1,'2022-02-02')
+
+Insert into MoviesActors
+Values(23,2)
+
+3.Script for PUT Request of Movies:
+
+update Movies 
+set Name='MovieUpdated',ProducerId=2
+where Id=23 
